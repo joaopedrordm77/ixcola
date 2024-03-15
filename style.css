@@ -13,7 +13,7 @@ body{
     border-bottom: 1px solid #c64f4f;
     background-color: rgba(108, 229, 99, 0.726);
  }
- header div a {
+ header div  {
     text-align: center; /*Alinhamento no meio do header */
  }
  header div a {
