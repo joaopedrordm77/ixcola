@@ -10,22 +10,27 @@ body{
  }
  header{
     padding: 32px;
-    border-bottom: 1px solid #c64f4f;
+    border-bottom: 1px solid mediumturquoise;
     background-color: rgba(108, 229, 99, 0.726);
  }
- header div  {
+ .links {
     text-align: center; /*Alinhamento no meio do header */
  }
- header div a {
+ .links a {
     color:white; /* a cor do texto */
     font-size: 20px; /* tamanho da fonte */
     line-height: 30px; /* espaçamento da linha do texto */
     margin: 0 16px; /* espaçamento entre os textos */
     text-decoration: none; /* retirar decoração do texto */
     font-family: "Madimi One", sans-serif;
+    transition: 700ms;
  }
- header div a:hover {   /*seleção do modo quando o mouse passa por cima "hover"*/
+ .links a:hover {   /*seleção do modo quando o mouse passa por cima "hover"*/
     color: green; /* mudar para cor verde*/
+    font-size: 40px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: "Madimi One", sans-serif;
     transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
 }
 #box{
@@ -57,4 +62,23 @@ body{
    margin: 32px auto;
    font-size: 24px;
    line-height: 34px;
+}
+#box h1   {
+   padding: 4px;
+}
+#box h2   {
+   padding: 10px;
+}
+#box p:hover   {
+   font-size: 23px;
+}
+#linkfooter {
+   padding: 32px;
+}
+
+#linkfooter a {
+   padding-top: 32px;
+   padding-bottom: 8px;
+   border-bottom: 5px solid salmon;
+
 }
