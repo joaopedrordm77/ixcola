@@ -5,7 +5,7 @@
     border: 0;
 }
 body{
-    background-color:#000000;
+    background-color:aquamarine;
 
  }
  header{
@@ -27,4 +27,34 @@ body{
  header div a:hover {   /*seleção do modo quando o mouse passa por cima "hover"*/
     color: green; /* mudar para cor verde*/
     transition: color 700ms; /* e fazer uma transição de cor que dura 700ms*/
+}
+#box{
+   text-align: center;
+   padding: 32px;
+}
+
+#box img{
+   border-radius: 50%;
+   border: 5px solid floralwhite;
+   margin-bottom: 32px;
+
+}
+#box h1 {
+   font-size: 42px;
+   line-height: 52px;
+   font-weight: bold;
+
+}
+#box h2 {
+   font-size: 24px;
+   line-height: 34px;
+   font-weight: normal;
+   margin-top: 8px;
+   opacity: 0.8;
+}
+#box p {
+   max-width: 500px;
+   margin: 32px auto;
+   font-size: 24px;
+   line-height: 34px;
 }
